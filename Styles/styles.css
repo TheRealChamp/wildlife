@@ -1,0 +1,1041 @@
+@import"https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap";
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+
+.navbar {
+  background: rgba(0, 0, 0, 0) !important
+}
+
+.navbar a {
+  color: #fff;
+  font-size: 20px;
+}
+
+.navbar a.active {
+  color: #fff !important;
+  size: 8rem;
+}
+
+.nav-link .btn .btn-outline-primary:hover{
+  background-color: #efaa09;
+  color: #efaa09;
+  border-radius: 50%;
+  border-color: #efaa09;
+  height: 30%;
+  width: 50%;
+}
+
+.hero__blade {
+  position: relative;
+  background-image: url("../img/Header.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 40vh;
+}
+
+.hero__blade::before {
+  content: "";
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.hero__blade::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.hero__blade .hero__content {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #fff;
+  min-height: 110vh;
+  font-family: "Permanent Marker";
+  z-index: 1;
+  line-height: 1;
+}
+
+.hero__blade .hero__content .hero__content__label {
+  font-size: 7rem
+}
+
+.hero__blade .hero__content .hero__content__label.small__label {
+  font-size: 2rem
+}
+
+.hero__blade .hero__content .hero__content__label.yello__label {
+  color: #febb01
+}
+
+.hero__content__wrapper {
+  position: relative;
+  background-color: #000
+}
+
+.hero__content__wrapper .hero__desc__container {
+  padding: 1rem;
+  color: #fff
+}
+
+.hero__content__wrapper .hero__desc__container .hero_desc_title {
+  font-size: 2rem;
+}
+
+.second_blade {
+  position: relative;
+  background-color: #f2f1ec;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 70vh;
+}
+
+.second_blade::before {
+  content: "";
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 70%;
+}
+
+.second_blade::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.second_blade .second_content {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #000;
+  min-height: 60vh;
+  font-family: "Permanent Marker";
+  z-index: 1;
+}
+
+.second_blade .second_content .second_content_label.head_label {
+  font-size: 3.5rem;
+  padding-top: 2%;
+}
+
+.second_blade .second_content .second_content_label.descr_label {
+  font-size: 1.5rem;
+  font-family: 'Titillium Web';
+  text-align: center;
+}
+
+.img-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card{
+  background: white;
+  width: 200px;
+  height: 400px;
+  margin: 10px;
+  border-radius: 10px;
+  border-bottom-color: #febb01;
+  border-bottom-width: 5px;
+}
+
+.card1{
+  background: white;
+  width: 500px;
+  margin: 10px;
+  border-radius: 10px;
+  
+}
+
+.card-image{
+  background-color: aqua;
+  height: 300px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.card1-image{
+  background-color: crimson;
+  height: 400px;
+  background-size: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-image.ele{
+  background-image: url('../img/Elephant.png');
+}
+
+.card-image.deeer{
+  background-image: url('../img/Deeer.png');
+}
+
+.card1-image.lion{
+  background-image: url('../img/lion.jpeg');
+}
+
+.paralong{
+  padding-top: 25px;
+}
+
+.card p{
+  padding-left: 20px;
+  font-size: 15px;
+  text-align: left;
+  justify-content: center;
+  font-family: 'Titillium Web';
+  line-height: 0.2;
+}
+
+.card1 h6{
+  padding-left: 15px;
+  font-size: 35px;
+  text-align: left;
+  color: #fff;
+  font-family: 'Titillium Web';
+  font-weight: bolder;
+  line-height: 0.9;
+}
+
+
+.Donate{
+  background-color: #000;
+  border: none;
+  color: white;
+  padding: 6px 20px;
+  font-family: 'Titillium Web';
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  display: inline-block;
+  margin: 20px 20px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.Donate:hover {
+  background-color: #febb01;
+  color: #000;
+}
+
+.third_blade {
+  position: relative;
+  background-image: url("../img/3bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.third_blade::before {
+  content: "";
+  background-repeat: no-repeat;
+  background-image: url("../img/shadow_dom.png");
+  background-size: cover;
+  background-position: bottom;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+}
+
+.third_blade::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120%;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), color-stop(60%, rgba(0, 212, 255, 0)));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 212, 255, 0) 60%)
+}
+
+.third_blade .third_content {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #fff;
+  min-height: 20vh;
+  font-family: "Permanent Marker";
+  z-index: 1;
+}
+
+.third_blade .third_content .third_content_label.head_label {
+  font-size: 3.5rem;
+}
+
+.third_blade .third_content .third_content_label.des_label {
+  font-size: 1.5rem;
+  font-family: 'Titillium Web';
+  text-align: center;
+}
+
+.third_blade .third_content .third_content_label.des_label1 {
+  font-size: 1.5rem;
+  font-family: 'Titillium Web';
+  text-align: center;
+}
+
+.img2-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+
+.hero_content_wrapper {
+  position: relative;
+  background-color: #000;
+  width: 53%;
+  height: 17vh;
+  left: 23.5%;
+}
+
+.hero_content_wrapper .hero_desc_container {
+  font-size: 20px; 
+  font-weight: 400;  
+  color: #fff;
+  font-family: 'Titillium Web';
+}
+
+.but1{
+  background-color: transparent;
+  color: #fff;
+  padding-top: 1.5rem;
+  text-decoration: overline;
+  text-transform: capitalize;
+  border-color: transparent;
+  font-size: 10px;
+  font-weight: bolder;
+}
+
+.but1:hover{
+  background-color: #efaa09;
+}
+
+.card5{
+  background: black;
+  width: 550px;
+  height: 500px;
+  z-index: 3;
+}
+.card6{
+  background: #fff;
+  width: 500px;
+  height: 500px;
+  z-index: 3;
+}
+
+
+.card5-image{
+  background-color: #fff;
+  height: 500px;
+  margin-bottom: 15px;
+  background-size: cover;
+}
+
+.card6-image{
+  background-color: #fff;
+  height: 500px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+  background-size: cover;
+}
+
+.card5-image.deer{
+  background-image: url('../img/deer1.png');
+}
+
+.card6 h1{
+  padding-left: 14%;
+  padding-right: 10%;
+  font-size: 32px;
+  font-weight: 800;
+  text-align: left;
+  justify-content: center;
+  padding-top: 10%;
+}
+
+.card6 p{
+  font-size: 16px;
+  font-weight: 200;
+  text-align: left;
+  justify-content: left;
+}
+
+.row {
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+}
+
+.fourth_blade,
+.fifth_blade {
+  height: 100%;
+  width: 100%;
+}
+
+.fourth_blade {
+  position: relative;
+  background-image: url(../img/yellow.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 50vh;
+}
+
+.fourth_blade::before {
+  content: "";
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+}
+
+.fourth_blade::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+}
+
+.fourth_content_label {
+  padding-left: 7rem;
+  padding-top: 1 rem;
+}
+
+.fourth_blade .fourth_content_label.head_label {
+  font-size: 5rem;
+  font-family: 'Permanent Marker';
+  color: #fff;
+  padding-top: 5rem;
+}
+
+.fourth_blade .fourth_content_label.des_label {
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.fourth_blade .fourth_content_label.des_label1 {
+  font-size: 1.5rem;
+  text-align: left;
+  color: #fff;
+}
+
+.fifth_blade {
+  position: relative;
+  background-image: url(../img/zebra.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 50vh;
+}
+
+.Learn{
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 6px 20px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  display: inline-block;
+  margin: 20px 20px;
+  cursor: pointer;
+  border-radius: 16px;
+  position: absolute;
+}
+
+.Learn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.but2{
+  background-color: #000;
+  border: none;
+  color: #fff;
+  padding: 5px 40px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 10px;
+  display: inline-block;
+  position: absolute;
+  margin: 8px 30px;
+  cursor: pointer;
+  border-radius: 20px;
+  height:4%;
+}
+
+.but2:hover {
+  background-color: #ffba03;
+  color: #000;
+}
+
+.sixth_blade {
+  position: relative;
+  background-color: #f2f1ec;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 65vh;
+}
+
+.sixth_blade::before {
+  content: "";
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 70%;
+}
+
+.sixth_blade::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.sixth_blade .sixth_content {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #000;
+  min-height: 20vh;
+  font-family: "Permanent Marker";
+  z-index: 1;
+}
+
+.sixth_blade .sixth_content .sixth_content_label.head_label {
+  font-size: 3.5rem;
+}
+
+.sixth_blade .sixth_content .sixth_content_label.des_label {
+  font-size: 1.5rem;
+  font-family: 'Titillium Web';
+  text-align: center;
+}
+
+.sixth_blade .sixth_content .sixth_content_label.des_label1 {
+  font-size: 1.5rem;
+  font-family: 'Titillium Web';
+  text-align: center;
+}
+
+.img3-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.img3-container .card{
+  width: 350px;
+}
+
+.card-image.elep{
+  background-image: url('../img/elep.png');
+}
+
+.card-image.eagle{
+  background-image: url('../img/eagle.png');
+}
+
+.card h6{
+  padding: 4%;
+  font-size: 12px;
+  text-align: left;
+  justify-content: center;
+  color: #000;
+  line-height: 0.9;
+
+}
+
+.seventh_blade {
+  position: relative;
+  background-image: url("../img/back4.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 50vh;
+}
+
+.seventh_blade::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+}
+
+.seventh_blade::after {
+  content: "";
+  background-image: url("../img/shadow_dom.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), color-stop(60%, rgba(0, 212, 255, 0)));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 212, 255, 0) 60%)
+}
+
+.seventh_blade .seventh_content {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #fff;
+  min-height: 20vh;
+  font-family: "Permanent Marker";
+  z-index: 1;
+}
+
+.seventh_blade .seventh_content .seventh_content_label {
+  font-size: 2rem
+}
+
+.seventh_blade .seventh_content .seventh_content_label.head_label {
+  font-size: 3rem;
+}
+
+.seventh_blade .seventh_content .seventh_content_label.desc_label {
+  font-size: 1rem;
+  font-family: 'Titillium Web';
+}
+
+.seventh_content_wrapper .seventh_desc_container {
+  padding: 1rem;
+  color: #fff;
+  text-align: center;
+}
+
+.seventh_content_wrapper .seventh_desc_container .seventh_desc_title {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.seventh_content_wrapper .seventh_desc_container .seventh_desc_title_head {
+  font-size: 4rem;
+  font-family: 'Permanent Marker';
+  font-weight: 100;
+  text-align: center;
+  color: #efaa09;
+}
+
+.eighth_blade {
+  position: relative;
+  background-image: url(../img/hand.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 50vh;
+}
+
+.eighth_blade::before {
+  content: "";
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+}
+
+.eighth_blade::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+}
+
+.nineth_content_label {
+  padding-left: 20%;
+  line-height: 1.1;
+}
+
+.nineth_blade .nineth_content_label.head_label {
+  font-size: 5rem;
+  font-family: 'Permanent Marker';
+  color: #fff;
+  padding-top: 5rem;
+}
+
+.nineth_blade .nineth_content_label.des_label {
+  font-size: 1rem;
+  text-align: left;
+
+}
+
+.nineth_blade .nineth_content_label.des_label1 {
+  font-size: 1rem;
+  text-align: left;
+  color: #fff;
+}
+
+.nineth_blade {
+  position: relative;
+  background-image: url(../img/yellow.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 50vh;
+}
+
+.nineth_blade::before {
+  content: "";
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+}
+
+.nineth_blade::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+}
+
+.card i{
+  color: red;
+}
+
+.container_3{
+  position: absolute;
+  top: 53%;
+  left: 32%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container_3 .email{
+  height: 50px;
+  position: relative;
+  padding-left: 200px;
+}
+
+.container_3 .email input{
+  height: 100%;
+  width: 450px;
+  padding-left: 20px;
+  font-size: 15px;
+  outline: none;
+  font-family: 'Tittilium Web';
+  border-radius: 50px;
+  border: transparent;
+}
+
+.container_3 .email button{
+  position: absolute;
+  top: 50%;
+  right: -65px;
+  transform: translate(-50%, -50%);
+  padding: 13px 28px;
+  cursor: pointer;
+  border-radius: 50px;
+  border: transparent;
+  outline: none;
+  background: #f75c58;
+  color: white;
+  transition: 0.3s;
+}
+
+.container_3 .email button:hover{
+  background: #000;
+}
+
+.container_3 .radio{
+  left: 39%;
+  top: 115%;
+  position: absolute;
+}
+
+
+.tenth_blade {
+  position: relative;
+  background-color: #f2f1ec;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 45vh;
+}
+
+.tenth_blade::before {
+  content: "";
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 10%;
+}
+
+.tenth_blade::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10%;
+}
+
+.tenth_blade .tenth_content {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #000;
+  min-height: 10vh;
+  font-family: "Permanent Marker";
+  z-index: 1;
+}
+
+.tenth_blade .tenth_content .tenth_content_label.head_label {
+  font-size: 3.5rem;
+  padding-top: 3%;
+}
+
+.tenth_blade .tenth_content .tenth_content_label.des_label {
+  font-size: 1.5rem;
+  font-family: 'Titillium Web';
+  text-align: center;
+}
+
+.tenth_blade .tenth_content .tenth_content_label.des_label1 {
+  font-size: 1.5rem;
+  font-family: 'Titillium Web';
+  text-align: center;
+}
+
+.btn-group {
+  align-items: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-family: 'Times New Roman', Times, serif;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.readm{
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 6px 20px;
+  font-size: 12px;
+  font-family: 'Titillium Web';
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  display: inline-block;
+  margin: 20px 20px;
+  cursor: pointer;
+  border-radius: 16px;
+  position: relative;
+  z-index: 3;
+}
+
+.readm:hover {
+  background-color: #febb01;
+  color: #000;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style: none;
+}
+
+.footer {
+  background-color: #000000;
+  padding: 10px 50px;
+}
+
+.footer-col {
+  width: 20%;
+  padding: 4rem 0;
+}
+
+.footer-col h4 {
+  font-size: 20px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  font-weight: 500;
+  position: relative;
+}
+
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.footer-col ul li a {
+  font-size: 10px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+}
+
+.footer-col .social-links a {
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 25px;
+  border-radius: 50%;
+  color: #efaa09;
+  transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+  color: #fff;
+  background-color: #efaa09;
+}
+
+@media(max-width: 767px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+
+@media(max-width: 574px) {
+  .footer-col {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
